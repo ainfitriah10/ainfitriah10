@@ -1,0 +1,52 @@
+/* style for header*/
+
+header {
+    background-color: antiquewhite;
+    color: darkred;
+    text-align: center;
+    padding: 20px;
+
+}
+
+/* style for navigation menu */
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(115, 81, 41);
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color:plum;
+}
+
+/* styling for content/main  */
+
+main{
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: peachpuff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+footer {
+    text-align: center;
+    background-color: antiquewhite;
+    color: purple;
+    padding: 15px;
+}
