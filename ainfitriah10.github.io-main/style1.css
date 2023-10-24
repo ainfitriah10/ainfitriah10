@@ -1,0 +1,122 @@
+/* style for header*/
+
+body {
+    background-image: url("pinkwall.jpeg"); 
+}
+
+header {
+    background-color: antiquewhite;
+    color: darkred;
+    text-align: center;
+    padding: 20px;
+
+}
+
+/* style for navigation menu */
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(115, 81, 41);
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color:plum;
+}
+
+/* styling for content/main  */
+
+main{
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: peachpuff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+footer {
+    text-align: center;
+    background-color: antiquewhite;
+    color: purple;
+    padding: 15px;
+}
+
+form { 
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button[type="submit"],
+button[type="reset"] {
+    background-color: darkblue;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: grab;
+}
+
+button[type="submit"]:hover,
+button[type="reset"]:hover {
+    background-color: #b3b3ff;
+    color : #000;
+}
+
+div#kiri {
+    width: 48%;
+    float: left;
+    padding: 5px;
+    border-style: dashed;
+    background-color: lightyellow;
+}
+
+div#kanan {
+    width: 48%;
+    float: left;
+    padding: 5px;
+    border-style: dashed;
+    background-color: lightgreen;
+}
+
+.clear{clear: both;}
